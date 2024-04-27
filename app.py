@@ -7,6 +7,12 @@ from openai import OpenAI
 import os
 os.environ["OPENAI_API_KEY"] = "sk-proj-"
 
+## 下一步难点：
+### 语速控制（慢，快）
+### 语气控制（悲伤、开心）
+### 声音克隆（音色克隆）
+### 是否可以通过用户个人profile，推理出他可能喜欢的元素：语速、语气、音色.
+
 ## 录音
 def record_audio(duration=5, filename='output.wav', samplerate=44100):
     # 录音设置
@@ -48,3 +54,4 @@ def text2voice():
 # record_audio()
 # voice2text()
 text2voice()
+
