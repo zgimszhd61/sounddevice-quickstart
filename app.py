@@ -12,6 +12,7 @@ os.environ["OPENAI_API_KEY"] = "sk-proj-"
 ### 语气控制（悲伤、开心）
 ### 声音克隆（音色克隆）
 ### 是否可以通过用户个人profile，推理出他可能喜欢的元素：语速、语气、音色.
+### 流式输入与流式输出.
 
 ## 录音
 def record_audio(duration=5, filename='output.wav', samplerate=44100):
